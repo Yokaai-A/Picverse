@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picVerse - Community</title>
+    <link rel="stylesheet" href="Community-Page.css">
+</head>
+<body>
+    <header>
+        <a class="logo">PicVerse</a>
+        <nav>
+            <ul>
+                <li><a class="to-home-page">Home</a></li>
+                <li><a class="to-gallery-page">Gallery</a></li>
+                <li><a class="to-submission-page">Submission</a></li>
+                <li><a class="to-community-page">Community</a></li>
+                <li><a class="to-about-us-page">About Us</a></li>
+            </ul>
+        </nav>
+
+        <button class="hamburger" >
+            ☰
+        </button>
+    </header>
+
+    <div class="mobile-popup-menu hidden" id="mobilePopupMenu">
+        <ul>
+            <li><a class="to-home-page">Home</a></li>
+            <li><a class="to-gallery-page">Gallery</a></li>
+            <li><a class="to-submission-page">Submission</a></li>
+            <li><a class="to-community-page">Community</a></li>
+            <li><a class="to-about-us-page">About Us</a></li>
+        </ul>
+    </div>
+
+    <div id="mobileSidebar" class="mobile-sidebar">
+        <button class="close-sidebar">&times;</button>
+    
+        <div class="recent-activity-box">
+            <h3>Recent Activity</h3>
+            <div class="recent-content">
+                <div class="activity-item">
+                    <img src="../asset/Community/picture-profile.png" alt="user" class="activity-icon">
+                    <p><strong>Ray_Draw</strong> started a new forum</p>
+                </div>
+                <div class="activity-item">
+                    <img src="../asset/Community/picture-profile.png" alt="user" class="activity-icon">
+                    <p><strong>Koaala</strong> liked “Critique My Character Design”</p>
+                </div>
+                <div class="activity-item">
+                    <img src="../asset/Community/picture-profile.png" alt="user" class="activity-icon">
+                    <p><strong>Yokaai</strong> followed <strong>Kenji_Sketch</strong></p>
+                </div>
+                <div class="activity-item">
+                    <img src="../asset/Community/picture-profile.png" alt="user" class="activity-icon">
+                    <p><strong>Yokaai</strong> Commented on <strong>Kenji_Sketch’s</strong> new post</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="active-user-box">
+            <h3>Active User</h3>
+            <ul class="active-user-list">
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>Dariess</strong>
+                        <span>"I draw what I feel."</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>Yokaai</strong>
+                        <span>"Color is my language."</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>Matthew_Art</strong>
+                        <span>"Sketch one every day."</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>Kenji_Sketch</strong>
+                        <span>“Dream. Draw. Repeat.”</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>Koaala</strong>
+                        <span>“Digital lines, real heart.”</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>Notari_Draw</strong>
+                        <span>“Lines speak louder than words.”</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>AriaDraws</strong>
+                        <span>“Creating chaos, one pixel at a time.”</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>Lila_Art</strong>
+                        <span>“Still learning, always sketching.”</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>ArtIsMyLife</strong>
+                        <span>“My canvas, my escape.”</span>
+                    </div>
+                </li>
+                <div class="section-divider"></div>
+                <li>
+                    <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                    <div class="active-title">
+                        <strong>Belu_Art</strong>
+                        <span>“Making magic with layers.”</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <main class="wrap">
+        <div class="community-header">
+            <h1 class="community-title">Community</h1>
+            <p class="community-subtitle">
+            Connect, discuss, and grow with fellow artists in the Picverse community.
+            </p>
+            <div class="section-divide-one"></div>
+        </div>
+
+        <div class="add-forums">
+            Forums
+          
+            <div class="add-new-thread" id="openThreadButton">
+                <div class="add-new-title">
+                    <span class="thread-maker">Add New Thread</span>
+                </div>
+                <img src="../asset/Community/lucide_plus.png" alt="+">
+            </div>             
+        </div>
+          
+        <button class="sidebar-toggle-button" id="openMobileSidebar">
+            Show Activity & Users
+        </button>  
+        
+        <div class="community-container">
+            <section class="forum-section">
+                <div class="post fade-in">
+                    <div class="post-header">
+                        <div class="profile-pic">
+                            <div class="pic">
+                            <img src="../asset/Community/picture-profile.png" alt="picture-profile">
+                            </div>
+                        </div>
+                        <div class="title-and-desc">
+                            <div class="title-post">
+                                <strong>Ray_Draw</strong>
+                                <p>Show Your First Digital Drawing!</p>
+                            </div>
+                    
+                            <div class="post-body">
+                                Let’s go back to where it all began! Share your very first digital drawing—no matter how messy, simple, or old it is. This is a safe space to celebrate your growth and inspire others who are just starting out. ✨ Don’t forget to tell us what tool or software you used!
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="post-footer">
+                        <div class="left-group">
+                            <img src="../asset/Community/like.png" alt="like" class="icon-like">
+                            <p class="like-count">10</p>
+                            <img src="../asset/Community/comment.png" alt="comment" class="icon-comment">
+                            <p>0</p>
+                        </div>
+                        <span class="time">1 Hours Ago</span>
+                    </div>
+                  
+                    <div class="comment-section hidden">
+                        <div class="comment-box">
+                            <input type="text" class="comment-input" placeholder="Type your comment here...">
+                            <button class="comment-submit">Post</button>
+                        </div>
+                    </div>
+                </div>
+                  
+                
+                <div class="post fade-in">
+                    <div class="post-header">
+                        <div class="profile-pic">
+                            <div class="pic">
+                                <img src="../asset/Community/picture-profile.png" alt="picture-profile">
+                            </div>
+                        </div>
+                        <div class="title-and-desc">
+                            <div class="title-post">
+                                <strong>Koaala</strong>
+                                <p>How Do You Find Inspiration for New Artworks?</p>
+                            </div>
+
+                            <div class="post-body">
+                                Art blocks are real — and we all face them. How do you reignite creativity when you’re stuck? A walk in nature, a favorite playlist, a quick free-write, or even just changing your workspace can spark ideas. Sometimes, stepping back is what brings the breakthrough. What’s your go-to method to get inspired again? ✨
+                            </div>
+                            <div class="post-footer">
+                                <img src="../asset/Community/like.png" alt="like" class="icon-like">
+                                <p class="like-count">28</p>
+                                <img src="../asset/Community/comment.png" alt="comment" class="icon-comment">
+                                <p>4</p>
+                                <span class="time">3 Hours Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-section hidden">
+                        <div class="comment-box">
+                            <input type="text" class="comment-input" placeholder="Type your comment here...">
+                            <button class="comment-submit">Post</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post fade-in">
+                    <div class="post-header">
+                        <div class="profile-pic">
+                            <div class="pic">
+                                <img src="../asset/Community/picture-profile.png" alt="picture-profile">
+                            </div>
+                        </div>
+                        <div class="title-and-desc">
+                            <div class="title-post">
+                                <strong>Shin_Art</strong>
+                                <p>Favorite Digital Brushes – Share Yours!</p>
+                            </div>
+
+                            <div class="post-body">
+                                Are you a texture brush lover? Or maybe you prefer clean, inking tools? Share screenshots or links to your favorite brushes (free or paid) for software like Procreate, Photoshop, or Clip Studio Paint. Let’s help each other build the ultimate brush set!
+                            </div>
+                            <div class="post-footer">
+                                <img src="../asset/Community/like.png" alt="like" class="icon-like">
+                                <p class="like-count">20</p>
+                                <img src="../asset/Community/comment.png" alt="comment" class="icon-comment">
+                                <p>6</p>
+                                <span class="time">4 Hours Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-section hidden">
+                        <div class="comment-box">
+                            <input type="text" class="comment-input" placeholder="Type your comment here...">
+                            <button class="comment-submit">Post</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post fade-in">
+                    <div class="post-header">
+                        <div class="profile-pic">
+                            <div class="pic">
+                                <img src="../asset/Community/picture-profile.png" alt="picture-profile">
+                            </div>
+                        </div>
+                        <div class="title-and-desc">
+                            <div class="title-post">
+                                <strong>Yokaai</strong>
+                                <p>Critique My Character Design</p>
+                            </div>
+
+                            <div class="post-body">
+                                I just finished designing a character and would love some honest feedback!What works? What feels off? 
+                                <br>Be kind but constructive 🙏
+                            </div>
+                            <div class="post-footer">
+                                <img src="../asset/Community/like.png" alt="like" class="icon-like">
+                                <p class="like-count">50</p>
+                                <img src="../asset/Community/comment.png" alt="comment" class="icon-comment">
+                                <p>10</p>
+                                <span class="time">7 Hours Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-section hidden">
+                        <div class="comment-box">
+                            <input type="text" class="comment-input" placeholder="Type your comment here...">
+                            <button class="comment-submit">Post</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post fade-in">
+                    <div class="post-header">
+                        <div class="profile-pic">
+                            <div class="pic">
+                                <img src="../asset/Community/picture-profile.png" alt="picture-profile">
+                            </div>
+                        </div>
+                        <div class="title-and-desc">
+                            <div class="title-post">
+                                <strong>Kenji_Sketch</strong>
+                                <p>How Do You Handle Art Criticism?</p>
+                            </div>
+
+                            <div class="post-body">
+                                Receiving feedback can be tough, especially when it feels harsh.How do you deal with criticism — do you reflect, ignore, or fight back?Share your experience and let’s learn how to grow through critique together.
+                            </div>
+                            <div class="post-footer">
+                                <img src="../asset/Community/like.png" alt="like" class="icon-like">
+                                <p class="like-count">120</p>
+
+                                <img src="../asset/Community/comment.png" alt="comment" class="icon-comment">
+                                <p>15</p>
+                                <span class="time">12 Hours Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-section hidden">
+                        <div class="comment-box">
+                            <input type="text" class="comment-input" placeholder="Type your comment here...">
+                            <button class="comment-submit">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+              
+            <aside class="sidebar hidden-mobile">
+                <div class="recent-activity-box fade-in" id="recentBox">
+                    <h3>Recent Activity</h3>
+                    <div class="section-divider-recent" id="sectionDivide"></div>
+                    <p class="enlarge-note" id="enlargeNote">Click to enlarge.</p>
+                
+                    <div class="recent-content hidden" id="recentContent">
+                        <div class="activity-item">
+                            <img src="../asset/Community/picture-profile.png" alt="user" class="activity-icon">
+                            <p><strong>Ray_Draw</strong> started a new forum</p>
+                        </div>
+                        <div class="activity-item">
+                            <img src="../asset/Community/picture-profile.png" alt="user" class="activity-icon">
+                            <p><strong>Koaala</strong> liked “Critique My Character Design”</p>
+                        </div>
+                        <div class="activity-item">
+                            <img src="../asset/Community/picture-profile.png" alt="user" class="activity-icon">
+                            <p><strong>Yokaai</strong> followed <strong>Kenji_Sketch</strong></p>
+                        </div>
+                        <div class="activity-item">
+                            <img src="../asset/Community/picture-profile.png" alt="user" class="activity-icon">
+                            <p><strong>Yokaai</strong> Commented on <strong>Kenji_Sketch’s</strong> new post</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            
+                <div class="active-user-box fade-in">
+                    <h3>Active User</h3>
+                    <ul class="active-user-list">
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>Dariess</strong>
+                                <span>"I draw what I feel."</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>Yokaai</strong>
+                                <span>"Color is my language."</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>Matthew_Art</strong>
+                                <span>"Sketch one every day."</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>Kenji_Sketch</strong>
+                                <span>“Dream. Draw. Repeat.”</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>Koaala</strong>
+                                <span>“Digital lines, real heart.”</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>Notari_Draw</strong>
+                                <span>“Lines speak louder than words.”</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>AriaDraws</strong>
+                                <span>“Creating chaos, one pixel at a time.”</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>Lila_Art</strong>
+                                <span>“Still learning, always sketching.”</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>ArtIsMyLife</strong>
+                                <span>“My canvas, my escape.”</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                        <li>
+                            <img src="../asset/Community/picture-profile.png" alt="User" class="small-profile">
+                            <div class="active-title">
+                                <strong>Belu_Art</strong>
+                                <span>“Making magic with layers.”</span>
+                            </div>
+                        </li>
+                        <div class="section-divider"></div>
+                    </ul>
+                </div>
+            </aside>
+        </div>    
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+        <div class="footer-brand">
+            <h2>PicVerse</h2>
+            <div class="social-icons">
+                <img src="../asset/Footer/Xsosmed.png" alt="X">
+                <img src="../asset/Footer/Facebook.png" alt="Facebook">
+                <img src="../asset/Footer/youtube.png" alt="Youtube">
+                <img src="../asset/Footer/Instagram.png" alt="Instagram">
+                <img src="../asset/Footer/linkedin.png" alt="Linkedin">
+            </div>
+            <div class="footer-information">
+                <p class="point">Terms of Service</p>
+                <p>|</p>
+                <p class="point">Our Team</p>
+                <p>|</p>
+                <p class="point">Home</p>
+                <p>|</p>
+                <p class="point">About</p>
+                <p>|</p>
+                <p class="point">Contact Us</p>
+                <p>|</p>
+                <p class="point">Privacy Policy</p>
+            </div>
+        </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2025 Picverse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Community-Page.js"></script>
+</body>
+</html>
